@@ -182,9 +182,6 @@ color: #757575;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
-padding-left: 99px;
-padding-right: 99px;
-padding-top: 30px;
 }
 .workplace-item{
     font-size: 16px;
@@ -596,10 +593,17 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     visibility: hidden;
     pointer-events: none;
 }
+.is-hidden .modal{
+    transform: rotate(180deg);
+}
 .social-media-icons{
 display: flex;
 justify-content: center;
-padding-left: 32px;
-padding-right: 32px;
-padding-bottom: 30px;
+
+}
+.team-list-item{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
