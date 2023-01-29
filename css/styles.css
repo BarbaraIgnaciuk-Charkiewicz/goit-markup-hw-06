@@ -648,15 +648,14 @@ color: #212121;
 .checkbox{
     display: flex;
     margin-bottom: 30px;
-    
+    cursor: pointer;  
 }
 
 .checkbox-modal{
 border-color:rgba(33, 33, 33, 1);
-border-width:16px;
-border-height:15px;
-
+cursor: pointer;
 padding-top: 20px;
+background: url(../images/icons.svg#icon-icon-check);
 
 }
 .checkbox-text{
@@ -664,7 +663,10 @@ padding-top: 20px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    width: 60px;
+    height: 60px;
 }
+
 .checkbox-link{
     color: #2196F3;
 }
@@ -790,3 +792,4 @@ padding-bottom: 12px;
 .feedback:focus{
     border-color: #2196F3;
 }
+.label-text
