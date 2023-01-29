@@ -3,6 +3,7 @@
 margin:0 auto;
 padding:0;
 box-sizing:border-box;
+outline:none;
 }
 body{
 font-family:"Roboto", sans-serif;
@@ -218,6 +219,7 @@ color: #FFFFFF;
     line-height: 1.71;
     color: #FFFFFF;
     margin-top: 20px;
+    
 }
 .footer-background{
     background: #2F303A;
@@ -613,10 +615,11 @@ justify-content: center;
 .registration-form{
     list-style: none;
     padding-top: 28px;
-    padding-bottom: 40px;
+
 }
 .input {
 Width:448px;
+height: 40px;
 margin-bottom: 10px;
 resize: none;
 font-size: 12px;
@@ -625,11 +628,12 @@ letter-spacing: 0.01em;
 color: rgba(117, 117, 117, 0.5);
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
-  }
+padding-left: 42px;
+}
 .label-text{
 font-size: 12px;
 line-height: 1.17;
- letter-spacing: 0.01em;
+letter-spacing: 0.01em;
 color: #757575;
 padding-bottom: 4px;
 }
@@ -641,22 +645,31 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
+.checkbox{
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+
 .checkbox-modal{
 border-color:rgba(33, 33, 33, 1);
 border-width:16px;
 border-height:15px;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #757575;
+
 padding-top: 20px;
-margin-bottom: 30px;
+
+}
+.checkbox-text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.checkbox-link{
+    color: #2196F3;
 }
 .modal-btn{
 display: flex;
-
-
-
 }
 .btn{
 width:200px;
@@ -664,7 +677,6 @@ weight:50px;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-justify-content: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
@@ -680,9 +692,7 @@ transform: translate(50%, 20%);
     display: flex;
     outline: none;
 }
-.signup-form:hover{
-    border-color:#2196F3;
-}
+
 .email-newsletter{
 display: inline-flex;
 font-size: 16px;
@@ -702,6 +712,14 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 background-color: #2F303A;
 }
+.border-newsletter:hover{
+    border-color:#2196F3;
+    color: #2196F3;
+}
+.border-newsletter:focus{
+    border-color:#2196F3;
+    color: #2196F3;
+}
 .footer-newsletter
 {   align-items: center;
     justify-content: center;
@@ -717,6 +735,58 @@ background-color: #2F303A;
     left: 12px;
     top: 8%;
 }
-.btn-form{
+.input-item{
+    position: relative;
+    display: flex;
+    transition-property:background-color,fill;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-item:hover{
+  fill: #2196F3;
+}
+.input-item .input:hover{
+    border-color: #2196F3;
+}
+.input-item:focus{
+    fill: #2196F3;
+  }
+  .input-item .input:focus{
+      border-color: #2196F3;
+  }
 
+.input-item-icons{
+    position: absolute;
+    top: -108%;
+    left: 12px;
+    display: block;
+
+}
+.feedback-elements{
+    transition-property:background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }   
+
+.feedback{
+height: 120px;
+Width:448px;
+margin-bottom: 10px;
+resize: none;
+font-size: 12px;
+line-height: 1.67;
+letter-spacing: 0.01em;
+color: rgba(117, 117, 117, 0.5);
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 12px;
+padding-bottom: 12px;
+}
+.feedback:hover{
+    border-color: #2196F3;
+}
+.feedback:focus{
+    border-color: #2196F3;
 }

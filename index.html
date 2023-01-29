@@ -200,23 +200,27 @@
                 <ul class="registration-form">
                     <li>
                         <label class="label-text" for="name-input">Imie</label>
-                        <input class="input" id="name-input"type="text" name="username" required />
+                        <span class="input-item"><svg class="input-item-icons" width="18px" hight="18px"><use href="./images/icons.svg#icon-person-black"></use></svg>
+                        <input class="input" id="name-input"type="text" name="username" required /></span>
                     <li>
                         <label class="label-text" for="tel-input">Telefon</label>
-                        <input class="input" id="tel-input" type="tel" name="phone_number" required/>
+                        <span class="input-item"><svg class="input-item-icons" width="18px" hight="18px"><use href="./images/icons.svg#icon-phone-black"></use></svg>
+                        <input class="input" id="tel-input" type="tel" name="phone_number" required/></span>
                     </li>
                     <li>
                         <label class="label-text" for="email-input">Email</label>
-                        <input class="input" id="email-input" type="email" name="email" required/>
+                        <span class="input-item"><svg class="input-item-icons" width="18px" hight="18px"><use href="./images/icons.svg#icon-email-black"></use></svg>
+                        <input class="input" id="email-input" type="email" name="email"  required/></span>
                     </li>
-                    <li>
+                    <li class="feedback-elements">
                         <label class="label-text" for="text-input">Komentarz</label>
-                        <textarea  class="input" id="text-input" name="feedback" rows="6" placeholder="Wprowadź tekst"></textarea>
+                        <textarea  class="feedback" id="text-input" name="feedback" rows="30" placeholder="Wprowadź tekst"></textarea>
                     </li>
                 </ul>
-                <label>
-                    <input class="checkbox-modal" type="checkbox" name="statute" value="accept"required/>Oświadczam iż akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę Prywatności</a>.
-                </label>
+                <div class="checkbox">
+                <label class="label-text" for="checkbox"></label>
+                    <input class="checkbox-modal" id="checkbox" type="checkbox" name="statute" value="accept"required/><div class="checkbox-text">Oświadczam iż akceptuję <a class="checkbox-link" href="#">Regulamin</a> i <a class="checkbox-link" href="#">Politykę Prywatności</a>.</div>
+                </div>
                 <div class="modal-btn">
                     <button type="submit" class="btn-form button">Wyślij</button>
                 </div>
