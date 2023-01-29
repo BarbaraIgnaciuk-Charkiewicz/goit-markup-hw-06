@@ -672,16 +672,24 @@ color: #FFFFFF;
 
 }
 .icon-newsletter{
-    fill: rgba(255, 255, 255, 1);
-    ;
-
-
+fill: rgba(255, 255, 255, 1);
+position: relative;
+transform: translate(50%, 20%);
 }
 .signup-form{
     display: flex;
+    outline: none;
+}
+.signup-form:hover{
+    border-color:#2196F3;
 }
 .email-newsletter{
-    display: inline-flex;
+display: inline-flex;
+font-size: 16px;
+line-height: 20px;
+align-items: center;
+letter-spacing: 0.03em;
+
     
 }
 .border-newsletter{
@@ -702,5 +710,13 @@ background-color: #2F303A;
    padding-left: 78px; 
    margin: 0;
 }
-.button
-.modal-btn
+.btn-newsletter{
+    position:relative;
+    width: 200px;
+    height: 50px;
+    left: 12px;
+    top: 8%;
+}
+.btn-form{
+
+}
