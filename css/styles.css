@@ -152,6 +152,8 @@ margin-bottom: 30px;
     padding-bottom: 10px;
     margin: 0 auto;
     border-style:none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
 .title-lorem-ipsum{
     font-weight: 700;
@@ -564,6 +566,7 @@ border-radius: 2px;
 }
 .modal{
 position: absolute;
+padding: 40px;
 top: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
@@ -607,3 +610,97 @@ justify-content: center;
     padding-bottom: 30px;
     padding-top: 30px;
 }
+.registration-form{
+    list-style: none;
+    padding-top: 28px;
+    padding-bottom: 40px;
+}
+.input {
+Width:448px;
+margin-bottom: 10px;
+resize: none;
+font-size: 12px;
+line-height: 1.67;
+letter-spacing: 0.01em;
+color: rgba(117, 117, 117, 0.5);
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+  }
+.label-text{
+font-size: 12px;
+line-height: 1.17;
+ letter-spacing: 0.01em;
+color: #757575;
+padding-bottom: 4px;
+}
+.modal-title{
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.checkbox-modal{
+border-color:rgba(33, 33, 33, 1);
+border-width:16px;
+border-height:15px;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+padding-top: 20px;
+margin-bottom: 30px;
+}
+.modal-btn{
+display: flex;
+
+
+
+}
+.btn{
+width:200px;
+weight:50px;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+justify-content: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+
+
+}
+.icon-newsletter{
+    fill: rgba(255, 255, 255, 1);
+    ;
+
+
+}
+.signup-form{
+    display: flex;
+}
+.email-newsletter{
+    display: inline-flex;
+    
+}
+.border-newsletter{
+width: 358px;
+height: 50px;
+left: 815px;
+top: 2787px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background-color: #2F303A;
+}
+.footer-newsletter
+{   align-items: center;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 100px;
+   padding-left: 78px; 
+   margin: 0;
+}
+.button
+.modal-btn
