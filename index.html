@@ -172,7 +172,7 @@
                 </address>
             </div>
             <div class="item-footer">
-                <h3 class="join-us-title">DOŁĄCZ DO NAS</h3>
+                <h5 class="join-us-title">DOŁĄCZ DO NAS</h5>
                 <ul class="join-us-item">
                     <li><a href="#" class="join-us"><svg width="20px"height="20px"><use href="./images/icons.svg#icon-instagram" ></use></svg></li></a>
                     <li><a href="#" class="join-us"><svg width="20px"height="20px"><use href="./images/icons.svg#icon-twitter" ></use></svg></li></a>
@@ -181,11 +181,12 @@
                 </ul>
             </div>
             <div class="footer-newsletter">
-                <h3 class="join-us-title">ZAPISZ SIĘ DO NEWSLETTERA</h3>
                 <div class="signup-form">
                 <form name="signup_form" autocomplete="on" novalidate>
-                    <div class="email-newsletter"><label for="email-newsletter"></label>
-                    <input class="border-newsletter" id="email-newsletter" type="email" name="email" placeholder="E-mail" required/></div> 
+                <div class="email-newsletter">
+                    <label class="label-newsletter" for="email-newsletter">ZAPISZ SIĘ DO NEWSLETTERA</label>
+                    <input class="border-newsletter" id="email-newsletter" type="email" name="email" placeholder="E-mail" required/>
+                </div> 
                     <button type="submit" class="btn-newsletter email-newsletter button">Zapisz się<svg class="icon-newsletter" width="24px" height="24px"><use href="./images/icons.svg#icon-icon-send"></use></svg></button>
                 </form>
             </div>
@@ -196,33 +197,26 @@
         <div class="modal">
             <button type="button" class="close-button" data-modal-close>X</button>
             <h3 class="modal-title">Zostaw swoje dane w formularzu poniżej</h3>
-            <form name="registration">
-                <ul class="registration-form">
-                    <li>
+            <form class="registration-form" name="registration">
                         <label class="label-text" for="name-input">Imie</label>
                         <span class="input-item"><svg class="input-item-icons" width="18px" hight="18px"><use href="./images/icons.svg#icon-person-black"></use></svg>
                         <input class="input" id="name-input"type="text" name="username" required /></span>
-                    <li>
                         <label class="label-text" for="tel-input">Telefon</label>
                         <span class="input-item"><svg class="input-item-icons" width="18px" hight="18px"><use href="./images/icons.svg#icon-phone-black"></use></svg>
                         <input class="input" id="tel-input" type="tel" name="phone_number" required/></span>
-                    </li>
-                    <li>
                         <label class="label-text" for="email-input">Email</label>
                         <span class="input-item"><svg class="input-item-icons" width="18px" hight="18px"><use href="./images/icons.svg#icon-email-black"></use></svg>
                         <input class="input" id="email-input" type="email" name="email"  required/></span>
-                    </li>
-                    <li class="feedback-elements">
+                    <div class="feedback-elements">
                         <label class="label-text" for="text-input">Komentarz</label>
                         <textarea  class="feedback" id="text-input" name="feedback" rows="30" placeholder="Wprowadź tekst"></textarea>
-                    </li>
-                </ul>
+                    </div>
                 <div class="checkbox">
                 <label class="label-text" for="checkbox"></label>
                     <input class="checkbox-modal" id="checkbox" type="checkbox" name="statute" value="accept"required/><span class="checkbox-text">Oświadczam iż akceptuję <a class="checkbox-link" href="#">Regulamin</a> i <a class="checkbox-link" href="#">Politykę Prywatności</a>.</span>
                 </div>
                 <div class="modal-btn">
-                    <button type="submit" class="btn-form button">Wyślij</button>
+                    <button type="submit" class="button btn-form ">Wyślij</button>
                 </div>
             </form>
         </div>
