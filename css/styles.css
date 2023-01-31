@@ -701,6 +701,9 @@ font-size: 16px;
 line-height: 20px;
 align-items: center;
 letter-spacing: 0.03em;
+position: absolute;
+width: 570px;
+height: 86px;
     
 }
 .border-newsletter{
@@ -736,7 +739,7 @@ padding-bottom: 15px;
     width: 200px;
     height: 50px;
     left: 12px;
-    top: 8%;
+    top: 0%;
 }
 .input-item{
     position: relative;
@@ -808,7 +811,7 @@ border-radius: 4px;
     padding: 10px 76px ;
 }
 .label-newsletter{
-    position: relative;
+    position: absolute;
     font-weight: 700;
     line-height:1.172142;
     font-size: 14px;
@@ -816,6 +819,6 @@ border-radius: 4px;
     color: #FFFFFF;
     margin-bottom: 20px;
     margin-top: 0px;
-    left: %;
-    top:20px ;
+    left: 0%;
+    top:-45% ;
 }
