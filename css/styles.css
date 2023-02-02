@@ -194,15 +194,14 @@ line-height: 1.19;
     padding-bottom: 30px;
 }
 .footer{
-    
     font-size: 14px;
     line-height: 1.71;
     color: #FFFFFF;
     list-style: none;
     text-decoration: none;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin: 0;
+   margin: 0;
+   margin-right: 70px;
+   
 }
 .link-footer{
 text-decoration:none;
@@ -226,10 +225,9 @@ color: #FFFFFF;
 }
 .footer-content{
     display: flex;
-    align-items: center;
     justify-items: center;
-    margin-left: 215px;
-    
+    padding-top: 60px;
+    padding-bottom: 60px; 
 }
 .button-portfolio{
     font-weight: 500;
@@ -535,10 +533,9 @@ height: 44px;
     align-items: center;
     justify-content: center;
     list-style: none;
-    padding-top: 72px;
-    padding-bottom: 100px;
-   padding-left: 70px; 
-   margin: 0;
+    margin: 0;
+    margin-right: 78px;
+   
 }
 .join-us-item{
     display: flex;
@@ -646,8 +643,7 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 .checkbox{
-    margin-bottom: 30px;
-    cursor: pointer;  
+margin-bottom: 30px; 
 }
 
 .checkbox-modal{
@@ -707,8 +703,7 @@ height: 86px;
     
 }
 .border-newsletter{
-width: 358px;
-height: 50px;
+min-width: 300px;
 border: 1px solid rgba(255, 255, 255, 0.3);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
@@ -729,10 +724,8 @@ padding-bottom: 15px;
 .footer-newsletter
 {  align-items: center;
     justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 100px;
-   padding-left: 78px; 
-   margin-left: 78px;
+    margin: 0;
+
 }
 .btn-newsletter{
     position:relative;
@@ -811,14 +804,13 @@ border-radius: 4px;
     padding: 10px 76px ;
 }
 .label-newsletter{
-    position: absolute;
+    position:relative;
     font-weight: 700;
     line-height:1.172142;
     font-size: 14px;
     font-style: normal;
     color: #FFFFFF;
-    margin-bottom: 20px;
-    margin-top: 0px;
-    left: 0%;
-    top:-45% ;
+    display: block;
+   
 }
+.footer-content
